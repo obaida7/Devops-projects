@@ -3,12 +3,12 @@ variable "instance_name" {
 }
 
 variable "key_name" {
-  default = "terra"                  # Names of key in aws
+  default = "awskey"                  # Names of key in aws
 }
 
 
 variable "access_key" {
-  default = "insert"                # aws access key
+  default = "inser"                # aws access key
 }
 
 variable "secret_key" {
