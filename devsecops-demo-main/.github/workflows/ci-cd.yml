@@ -4,6 +4,8 @@ name: CI/CD Pipeline
 on:
   push:
     branches: [ main ]
+    paths:
+      - 'devsecops-demo-main'
     paths-ignore:
       - 'devsecops-demo-main/kubernetes/deployment.yaml'  # Ignore changes to this file to prevent loops
   pull_request:
