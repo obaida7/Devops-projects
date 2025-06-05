@@ -14,7 +14,7 @@ The CI/CD pipeline consists of the following stages:
 6. **Docker Image Push** - Pushes the image to GitHub Container Registry
 7. **Update Kubernetes Deployment** - Updates the Kubernetes deployment file with the new image
 
-## How the Kubernetes Deployment Update Works
+## How the Kubernetes Deployment Update
 
 The "Update Kubernetes Deployment" stage:
 
