@@ -12,7 +12,7 @@ The CI/CD pipeline consists of the following stages:
 4. **Docker Image Creation** - Builds a Docker image using a multi-stage Dockerfile
 5. **Docker Image Scan** - Scans the image for vulnerabilities using Trivy
 6. **Docker Image Push** - Pushes the image to GitHub Container Registry
-7. **Update Kubernetes Deployment** - Updates the Kubernetes deployment file with the new image tag
+7. **Update Kubernetes Deployment** - Updates the Kubernetes deployment file with the new image
 
 ## How the Kubernetes Deployment Update Works
 
