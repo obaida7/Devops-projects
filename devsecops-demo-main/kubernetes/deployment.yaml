@@ -17,7 +17,7 @@ spec:
       containers:
       - name: tic-tac-toe
         image: ghcr.io/obaida7/devsecops-demo-main:sha-fb64dc2ac8cd8d79ad4a75c58326596b59eaf402
-        # Image will be automatically updated by CI/CD 
+        # Image will be automatically updated by CICD
         imagePullPolicy: Always
         ports:
         - containerPort: 80
